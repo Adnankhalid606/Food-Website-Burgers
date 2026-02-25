@@ -1,0 +1,7 @@
+.background{
+    background-image: url("./assets/img/Background\ Rectengular.png");
+    height: 100dvh;
+    background-repeat: no-repeat ;
+    background-position: top right;
+    background-size: auto 100%;
+}
