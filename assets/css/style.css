@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #FF7A04;
+}
+
+body {
+    background-color: #ffcea3;
+    font-family: "Poppins";
+}
+
+.star {
+    position: absolute;
+    top: 160px;
+    left: 195px;
+}
+
+.off {
+    position: absolute;
+    top: 210px;
+    left: 236px;
+
+}
+
+.flex {
+    height: 100dvh;
+    display: flex;
+}
+
+.text-main-color {
+    color: var(--primary-color);
+}
