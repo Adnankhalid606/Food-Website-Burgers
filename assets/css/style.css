@@ -28,3 +28,14 @@ body {
 .text-main-color {
     color: var(--primary-color);
 }
+.product-card{
+    background-image: url('../img/Rectangle\ 22.png');
+    border-radius: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+}
+
+
