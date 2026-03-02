@@ -1,5 +1,6 @@
 :root {
     --primary-color: #FF7A04;
+    --footer-color: #FF6947;
 }
 
 body {
@@ -61,7 +62,7 @@ body {
     width: 100%;
     position: absolute;
     height: 450px;
-    background-color: #FF7A04;
+    background-color: var(--primary-color);
     top: 50px;
     z-index: -1;
 
@@ -69,4 +70,24 @@ body {
 
 .text-size-1rem{
     font-size: 1.1rem;
+}
+
+.box1{
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.box2{
+    width: 120px;
+    height: 120px;
+    background-color: var(--primary-color);
+    border-radius: 22px;
+}
+
+.footer{
+    background-color: var(--footer-color);
+    padding: 100px;
+    color: white;
 }
